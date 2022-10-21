@@ -2,8 +2,8 @@ export default function SignIn() {
     return (
       <>
         
-        <div className="flex min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8 shadow-md border">
-          <div className="sm:mx-auto sm:w-full sm:max-w-md bg-slate-50">
+        <div className="flex min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8 shadow-md border bg-slate-50">
+          <div className="sm:mx-auto sm:w-full sm:max-w-md bg-white">
             
             <h1 className="mt-6 text-center text-5xl font-bold tracking-tight text-gray-900">Sign Up</h1>
             <p className="mt-2 text-center text-sm text-gray-600 ">
@@ -15,7 +15,7 @@ export default function SignIn() {
           </div>
   
           <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md ">
-            <div className=" py-8 px-4  shadow-xl sm:rounded-lg sm:px-10 bg-slate-50">
+            <div className=" py-8 px-4  shadow-xl sm:rounded-lg sm:px-10 bg-white">
               <form className="space-y-6" action="#" method="POST">
                 <div>
                   
